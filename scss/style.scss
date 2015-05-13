@@ -78,3 +78,106 @@ img {max-width:100%;}
 /**
  * YOUR CODE HERE
  */
+ *,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(25, 25, 25);
+}
+
+.header {
+    width: 100%;
+    background-color: rgb(25, 25, 25);
+    color: rgb(77, 73, 78);
+    font-family: 'Raleway';
+    font-size: 1rem;
+    padding-right: 3rem;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    padding-top: 25px;
+}
+
+.links {
+    right: 0px;
+    position: absolute;
+    max-width: 49%
+}
+
+a:link {
+    color: rgb(77, 73, 78);
+    font-family: 'Raleway';
+    font-size: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: right;
+}
+
+a:hover {
+    color: rgb(246, 60, 60);
+}
+
+.camera{
+    margin-top: 10rem;
+    margin-left: 40%;
+}
+
+.name {
+    position: absolute;
+    max-width: 49%
+}
+
+.content {
+margin-left: 20%;
+margin-top: 1rem;
+height: 400px;
+width: 600px;
+}
+
+.menu{
+    margin-right: -25%;
+    margin-top: -115%;
+    float:right;
+    @media (min-width: 400px) { 
+        float:none;
+        margin-top:0px;
+    }
+}
+
+
+.menutext {
+    line-height: 175%;
+    color: rgb(135, 135, 135);
+    font-family: 'Raleway';
+    font-size: 1rem;
+    margin-bottom: 5px;
+    margin-top: 2rem;
+    }
+
+
+.icons{
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+    margin-bottom: .5rem;
+    float: left;
+    margin-right: .5rem;
+ }
+
+.title { 
+    padding-top: 1rem;
+    color: rgb(160,160,160);
+    font-family: 'Raleway';
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.image {
+    max-width: 400px;
+    max-width: 600px;
+}
